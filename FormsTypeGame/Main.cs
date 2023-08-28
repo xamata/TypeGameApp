@@ -10,7 +10,6 @@ namespace FormsTypeGame
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            lblCharacter.Location = GetNewPoint();
             lblCharacter.Text = GetRandomCharacter().ToString();
             gameTimer.Start();
         }
@@ -22,22 +21,9 @@ namespace FormsTypeGame
 
         private void gameTimer_Tick(object sender, EventArgs e)
         {
-            lblCharacter.Top += 40;
-            if (lblCharacter.Top >= gamePanel.Height)
-            {
-                lblCharacter.Location = GetNewPoint();
-            }
+
         }
 
-        Random xLocation = new Random();
-        private Point GetNewPoint()
-        {
-
-            int x = xLocation.Next(0, gamePanel.Width - lblCharacter.Width);
-            int y = 0;
-
-            return new Point(x, y);
-        }
         Random randomCharacter = new Random();
         private char GetRandomCharacter()
         {
@@ -52,7 +38,6 @@ namespace FormsTypeGame
             {
                 Score += 1;
                 labelScore.Text = "Score " + Score;
-                lblCharacter.Location = GetNewPoint();
                 lblCharacter.Text = GetRandomCharacter().ToString();
             }
             else

@@ -71,7 +71,7 @@
             // 
             lblCharacter.AutoSize = true;
             lblCharacter.BackColor = SystemColors.InactiveCaption;
-            lblCharacter.Location = new Point(670, 88);
+            lblCharacter.Location = new Point(779, 341);
             lblCharacter.MinimumSize = new Size(150, 20);
             lblCharacter.Name = "lblCharacter";
             lblCharacter.Size = new Size(150, 57);
