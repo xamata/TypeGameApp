@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HtC5Xj0v+53+PPObdsZ01t7GW/yemqiL5t37rUGvQmpNJLfJwiLBneDv1g6OA3IeRbfYBb9m/sIso4Dk3fPNVA==",
+  "dgSpecHash": "TZCg9Zr3pFCJX0EwN4TVBNB7Cfnbq7m73ydLayPiwPFWbmnvS4+wieTpBpolbeGhVYuLRZRMD6eeYKkGqiBQdw==",
   "success": true,
-  "projectFilePath": "C:\\src\\demos\\FormsTypeGame\\FormsTypeGame\\FormsTypeGame.csproj",
+  "projectFilePath": "C:\\src\\demos\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

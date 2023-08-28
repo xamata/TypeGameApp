@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\demos\\FormsTypeGame\\FormsTypeGame\\FormsTypeGame.csproj",
+      "projectUniqueName": "C:\\src\\demos\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
       "projectName": "FormsTypeGame",
-      "projectPath": "C:\\src\\demos\\FormsTypeGame\\FormsTypeGame\\FormsTypeGame.csproj",
+      "projectPath": "C:\\src\\demos\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
       "packagesPath": "C:\\Users\\Maxmi\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\demos\\FormsTypeGame\\FormsTypeGame\\obj\\",
+      "outputPath": "C:\\src\\demos\\TypeGameApp\\FormsTypeGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
