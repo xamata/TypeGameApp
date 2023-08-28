@@ -1,0 +1,17 @@
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.AssemblyReference.cache
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.Main.resources
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.GenerateResource.cache
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.AssemblyInfoInputs.cache
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.AssemblyInfo.cs
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.CoreCompileInputs.cache
+C:\src\demos\FormsTypeGame\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.exe
+C:\src\demos\FormsTypeGame\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.deps.json
+C:\src\demos\FormsTypeGame\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.runtimeconfig.json
+C:\src\demos\FormsTypeGame\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.dll
+C:\src\demos\FormsTypeGame\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.pdb
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.dll
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\refint\FormsTypeGame.dll
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.pdb
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.genruntimeconfig.cache
+C:\src\demos\FormsTypeGame\FormsTypeGame\obj\Debug\net7.0-windows\ref\FormsTypeGame.dll
