@@ -6,7 +6,7 @@ namespace FormsTypeGame
     {
         int score = 0;
         int seconds = 30;
-        string wordFilePath = "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\Words.txt";
+        string wordFilePath = "C:\\src\\TypeGameApp\\TypingGameLibrary\\Words.txt";
         string parsedWords;
         WordParsing wordParser;
         public Main()

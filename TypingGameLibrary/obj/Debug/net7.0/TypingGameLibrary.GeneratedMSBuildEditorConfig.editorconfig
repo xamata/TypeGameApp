@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TypingGameLibrary
-build_property.ProjectDir = C:\src\git-projects\TypeGameApp\TypingGameLibrary\
+build_property.ProjectDir = C:\src\TypeGameApp\TypingGameLibrary\

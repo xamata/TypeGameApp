@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PN4pjMjy6yX2T4PGO41Lz7r5swEZQRGi5b1GljEM+U+fQA5hvA4OH9g0DamPp7DF7l9svc7DdpVUSmwjB1ocDA==",
+  "dgSpecHash": "cQHY50f12aRx12qCs/FLADw3jGk5gW9pUn2zPrT0AkkwF1pIrqTGdO8wDggfF2YDPWFNQfWmBfm6HLZYJfWPOw==",
   "success": true,
-  "projectFilePath": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
+  "projectFilePath": "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

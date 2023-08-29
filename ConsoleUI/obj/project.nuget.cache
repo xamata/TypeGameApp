@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DxMpKKZfURK3S2SGOqJNFmsgzdrqgqthxJgT06VlcPV4BUv5yXgBu4hr5z9/sW6u8lBFTbStwJDXPbojcgNc+A==",
+  "dgSpecHash": "cbltWCWL7hgPi6fGr2jpOL7vLbQbn/masI9sE5B/EP8m5si3d3dXF2PpIcO7tSdtMbYf1JnWHY/VL8BEXKbdlA==",
   "success": true,
-  "projectFilePath": "C:\\src\\git-projects\\TypeGameApp\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\src\\TypeGameApp\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

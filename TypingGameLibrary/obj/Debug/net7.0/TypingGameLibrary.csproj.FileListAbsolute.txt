@@ -10,3 +10,15 @@ C:\src\git-projects\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLib
 C:\src\git-projects\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\refint\TypingGameLibrary.dll
 C:\src\git-projects\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.pdb
 C:\src\git-projects\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\ref\TypingGameLibrary.dll
+C:\src\TypeGameApp\TypingGameLibrary\bin\Debug\net7.0\TypingGameLibrary.deps.json
+C:\src\TypeGameApp\TypingGameLibrary\bin\Debug\net7.0\TypingGameLibrary.dll
+C:\src\TypeGameApp\TypingGameLibrary\bin\Debug\net7.0\TypingGameLibrary.pdb
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.csproj.AssemblyReference.cache
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.AssemblyInfoInputs.cache
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.AssemblyInfo.cs
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.csproj.CoreCompileInputs.cache
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.dll
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\refint\TypingGameLibrary.dll
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\TypingGameLibrary.pdb
+C:\src\TypeGameApp\TypingGameLibrary\obj\Debug\net7.0\ref\TypingGameLibrary.dll

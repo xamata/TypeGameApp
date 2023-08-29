@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\git-projects\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj": {}
+    "C:\\src\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj": {}
   },
   "projects": {
-    "C:\\src\\git-projects\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj": {
+    "C:\\src\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\git-projects\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
+        "projectUniqueName": "C:\\src\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
         "projectName": "FormsTypeGame",
-        "projectPath": "C:\\src\\git-projects\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
+        "projectPath": "C:\\src\\TypeGameApp\\FormsTypeGame\\FormsTypeGame.csproj",
         "packagesPath": "C:\\Users\\Maxmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\git-projects\\TypeGameApp\\FormsTypeGame\\obj\\",
+        "outputPath": "C:\\src\\TypeGameApp\\FormsTypeGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj": {
-                "projectPath": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj"
+              "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj": {
+                "projectPath": "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj": {
+    "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
+        "projectUniqueName": "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
         "projectName": "TypingGameLibrary",
-        "projectPath": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
+        "projectPath": "C:\\src\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj",
         "packagesPath": "C:\\Users\\Maxmi\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\obj\\",
+        "outputPath": "C:\\src\\TypeGameApp\\TypingGameLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
