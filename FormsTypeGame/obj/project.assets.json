@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "TypingGameLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TypingGameLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TypingGameLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TypingGameLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TypingGameLibrary/TypingGameLibrary.csproj",
+      "msbuildProject": "../TypingGameLibrary/TypingGameLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "TypingGameLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Maxmi\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj": {
+              "projectPath": "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\TypingGameLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

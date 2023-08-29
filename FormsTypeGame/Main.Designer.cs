@@ -35,6 +35,7 @@
             lblCharacter = new Label();
             gameTimer = new System.Windows.Forms.Timer(components);
             gamePanel = new Panel();
+            labelTest = new Label();
             timerLabel = new Label();
             gamePanel.SuspendLayout();
             SuspendLayout();
@@ -72,25 +73,36 @@
             // 
             lblCharacter.AutoSize = true;
             lblCharacter.BackColor = SystemColors.InactiveCaption;
-            lblCharacter.Location = new Point(779, 341);
-            lblCharacter.MinimumSize = new Size(150, 20);
+            lblCharacter.Location = new Point(65, 74);
+            lblCharacter.MinimumSize = new Size(1000, 500);
             lblCharacter.Name = "lblCharacter";
-            lblCharacter.Size = new Size(150, 57);
+            lblCharacter.Size = new Size(1000, 500);
             lblCharacter.TabIndex = 3;
             lblCharacter.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // gameTimer
             // 
+            gameTimer.Interval = 1000;
             gameTimer.Tick += gameTimer_Tick;
             // 
             // gamePanel
             // 
+            gamePanel.Controls.Add(labelTest);
             gamePanel.Controls.Add(lblCharacter);
             gamePanel.Dock = DockStyle.Top;
             gamePanel.Location = new Point(0, 0);
             gamePanel.Name = "gamePanel";
             gamePanel.Size = new Size(1793, 693);
             gamePanel.TabIndex = 4;
+            // 
+            // labelTest
+            // 
+            labelTest.AutoSize = true;
+            labelTest.Location = new Point(1275, 243);
+            labelTest.Name = "labelTest";
+            labelTest.Size = new Size(237, 57);
+            labelTest.TabIndex = 4;
+            labelTest.Text = "TEST LABEL";
             // 
             // timerLabel
             // 
@@ -132,5 +144,6 @@
         private System.Windows.Forms.Timer gameTimer;
         private Panel gamePanel;
         private Label timerLabel;
+        private Label labelTest;
     }
 }

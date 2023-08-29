@@ -32,3 +32,6 @@ C:\src\git-projects\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\refint\Fo
 C:\src\git-projects\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.pdb
 C:\src\git-projects\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.genruntimeconfig.cache
 C:\src\git-projects\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\ref\FormsTypeGame.dll
+C:\src\git-projects\TypeGameApp\FormsTypeGame\bin\Debug\net7.0-windows\TypingGameLibrary.dll
+C:\src\git-projects\TypeGameApp\FormsTypeGame\bin\Debug\net7.0-windows\TypingGameLibrary.pdb
+C:\src\git-projects\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.CopyComplete
