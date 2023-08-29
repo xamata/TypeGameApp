@@ -35,6 +35,7 @@
             lblCharacter = new Label();
             gameTimer = new System.Windows.Forms.Timer(components);
             gamePanel = new Panel();
+            timerLabel = new Label();
             gamePanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // labelScore
             // 
             labelScore.AutoSize = true;
-            labelScore.Location = new Point(659, 763);
+            labelScore.Location = new Point(972, 763);
             labelScore.Name = "labelScore";
             labelScore.Size = new Size(163, 57);
             labelScore.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             lblCharacter.AutoSize = true;
             lblCharacter.BackColor = SystemColors.InactiveCaption;
-            lblCharacter.Location = new Point(670, 88);
+            lblCharacter.Location = new Point(779, 341);
             lblCharacter.MinimumSize = new Size(150, 20);
             lblCharacter.Name = "lblCharacter";
             lblCharacter.Size = new Size(150, 57);
@@ -91,11 +92,21 @@
             gamePanel.Size = new Size(1793, 693);
             gamePanel.TabIndex = 4;
             // 
+            // timerLabel
+            // 
+            timerLabel.AutoSize = true;
+            timerLabel.Location = new Point(670, 763);
+            timerLabel.Name = "timerLabel";
+            timerLabel.Size = new Size(126, 57);
+            timerLabel.TabIndex = 5;
+            timerLabel.Text = "00:00";
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(23F, 57F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1793, 915);
+            Controls.Add(timerLabel);
             Controls.Add(gamePanel);
             Controls.Add(labelScore);
             Controls.Add(btnClose);
@@ -120,5 +131,6 @@
         private Label lblCharacter;
         private System.Windows.Forms.Timer gameTimer;
         private Panel gamePanel;
+        private Label timerLabel;
     }
 }
