@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "FormsTypeGame/1.0.0": {
+        "dependencies": {
+          "TypingGameLibrary": "1.0.0"
+        },
         "runtime": {
           "FormsTypeGame.dll": {}
+        }
+      },
+      "TypingGameLibrary/1.0.0": {
+        "runtime": {
+          "TypingGameLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FormsTypeGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TypingGameLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,48 +1,63 @@
+using TypingGameLibrary;
+
 namespace FormsTypeGame
 {
     public partial class Main : Form
     {
-        int Score = 0;
+        int score = 0;
+        int seconds = 30;
+        string wordFilePath = "C:\\src\\git-projects\\TypeGameApp\\TypingGameLibrary\\Words.txt";
+        string parsedWords;
+        WordParsing wordParser;
         public Main()
         {
             InitializeComponent();
+            wordParser = new WordParsing();
+            parsedWords = wordParser.ParseWords(wordFilePath);
+            labelTest.Text = parsedWords.Length.ToString();
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            lblCharacter.Text = GetRandomCharacter().ToString();
+            lblCharacter.Text = wordParser.ParseWords(wordFilePath);
+            
+
+            //gameTimer.Interval = (10 * 1000); // 10 seconds
             gameTimer.Start();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void gameTimer_Tick(object sender, EventArgs e)
         {
-
-        }
-
-        Random randomCharacter = new Random();
-        private char GetRandomCharacter()
-        {
-            return (char)randomCharacter.Next(97, 123);
-
+            timerLabel.Text = $"00:{seconds--}";
+            if(seconds == 0)
+            {
+                gameTimer.Stop();
+                MessageBox.Show("The form will now be closed.", "Time Elapsed");
+                Close();
+            }
         }
 
         private void Main_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char userPressKey = e.KeyChar;
-            if (lblCharacter.Text == userPressKey.ToString())
+            for (int i = 0; i < parsedWords.Length; i++)
             {
-                Score += 1;
-                labelScore.Text = "Score " + Score;
-                lblCharacter.Text = GetRandomCharacter().ToString();
-            }
-            else
-            {
-                // Do nothing
+                char userPressKey = e.KeyChar;
+                labelTest.Text = e.KeyChar.ToString();
+                if (lblCharacter.Text[i] == userPressKey)
+                {
+                    score += 1;
+                    labelScore.Text = "Score " + score;
+                }
+                else
+                {
+                    // Do nothing
+                }
+
             }
         }
     }
