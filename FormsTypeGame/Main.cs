@@ -20,8 +20,17 @@ namespace FormsTypeGame
         private void btnStart_Click(object sender, EventArgs e)
         {
             string parsedWords = wordParser.ParseWords(wordFilePath);
-            splitWords = parsedWords.Split('\n');
-            characterLabel.Text = splitWords[wordIndex];
+            splitWords = parsedWords.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var word in splitWords)
+            {
+                characterLabel.Text += word + " ";
+            }
+
+            if (true)
+            {
+
+            }
 
             mainTextBox.Focus();
             gameTimer.Start();
@@ -45,19 +54,21 @@ namespace FormsTypeGame
 
         private void Main_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Enter)
+            if (e.KeyChar == (char)Keys.Space)
             {
-                scoreLabel.Text = "Entered";
+                if (mainTextBox.Text == splitWords[wordIndex])
+                {
+                    scoreLabel.Text = $"Score {++score}";
+                }
                 wordIndex++;
-                characterLabel.Text = splitWords[wordIndex];
-                mainTextBox.Clear();
+                e.KeyChar = (char)0; // Erases loaded 'space' char
+                mainTextBox.Text = "";
             }
         }
 
         private void mainTextBox_TextChanged(object sender, EventArgs e)
         {
-            score++;
-            scoreLabel.Text = score.ToString();
+            
         }
     }
 }

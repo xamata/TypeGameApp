@@ -36,7 +36,6 @@
             gameTimer = new System.Windows.Forms.Timer(components);
             gamePanel = new Panel();
             mainTextBox = new TextBox();
-            testLabel = new Label();
             timerLabel = new Label();
             gamePanel.SuspendLayout();
             SuspendLayout();
@@ -73,13 +72,12 @@
             // characterLabel
             // 
             characterLabel.AutoSize = true;
-            characterLabel.BackColor = SystemColors.InactiveCaption;
+            characterLabel.BackColor = Color.Transparent;
             characterLabel.Location = new Point(65, 74);
             characterLabel.MinimumSize = new Size(1000, 500);
             characterLabel.Name = "characterLabel";
             characterLabel.Size = new Size(1000, 500);
             characterLabel.TabIndex = 3;
-            characterLabel.Text = "characterLabel";
             characterLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // gameTimer
@@ -90,7 +88,6 @@
             // gamePanel
             // 
             gamePanel.Controls.Add(mainTextBox);
-            gamePanel.Controls.Add(testLabel);
             gamePanel.Controls.Add(characterLabel);
             gamePanel.Dock = DockStyle.Top;
             gamePanel.Location = new Point(0, 0);
@@ -100,20 +97,11 @@
             // 
             // mainTextBox
             // 
-            mainTextBox.Location = new Point(365, 122);
+            mainTextBox.Location = new Point(276, 160);
             mainTextBox.Name = "mainTextBox";
             mainTextBox.Size = new Size(552, 63);
             mainTextBox.TabIndex = 5;
             mainTextBox.TextChanged += mainTextBox_TextChanged;
-            // 
-            // testLabel
-            // 
-            testLabel.AutoSize = true;
-            testLabel.Location = new Point(85, 122);
-            testLabel.Name = "testLabel";
-            testLabel.Size = new Size(237, 57);
-            testLabel.TabIndex = 4;
-            testLabel.Text = "TEST LABEL";
             // 
             // timerLabel
             // 
@@ -155,7 +143,6 @@
         private System.Windows.Forms.Timer gameTimer;
         private Panel gamePanel;
         private Label timerLabel;
-        private Label testLabel;
         private TextBox mainTextBox;
     }
 }
