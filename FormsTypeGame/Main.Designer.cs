@@ -1,6 +1,6 @@
 ﻿namespace FormsTypeGame
 {
-    partial class Main
+    partial class mainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,56 +29,57 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            btnStart = new Button();
-            btnClose = new Button();
-            labelScore = new Label();
-            lblCharacter = new Label();
+            startButton = new Button();
+            closeButton = new Button();
+            scoreLabel = new Label();
+            characterLabel = new Label();
             gameTimer = new System.Windows.Forms.Timer(components);
             gamePanel = new Panel();
-            labelTest = new Label();
+            testLabel = new Label();
             timerLabel = new Label();
             gamePanel.SuspendLayout();
             SuspendLayout();
             // 
-            // btnStart
+            // startButton
             // 
-            btnStart.Location = new Point(32, 732);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(268, 118);
-            btnStart.TabIndex = 0;
-            btnStart.Text = "Start Game";
-            btnStart.UseVisualStyleBackColor = true;
-            btnStart.Click += btnStart_Click;
+            startButton.Location = new Point(32, 732);
+            startButton.Name = "startButton";
+            startButton.Size = new Size(268, 118);
+            startButton.TabIndex = 0;
+            startButton.Text = "Start Game";
+            startButton.UseVisualStyleBackColor = true;
+            startButton.Click += btnStart_Click;
             // 
-            // btnClose
+            // closeButton
             // 
-            btnClose.Location = new Point(342, 732);
-            btnClose.Name = "btnClose";
-            btnClose.Size = new Size(268, 118);
-            btnClose.TabIndex = 1;
-            btnClose.Text = "Close";
-            btnClose.UseVisualStyleBackColor = true;
-            btnClose.Click += btnClose_Click;
+            closeButton.Location = new Point(342, 732);
+            closeButton.Name = "closeButton";
+            closeButton.Size = new Size(268, 118);
+            closeButton.TabIndex = 1;
+            closeButton.Text = "Close";
+            closeButton.UseVisualStyleBackColor = true;
+            closeButton.Click += btnClose_Click;
             // 
-            // labelScore
+            // scoreLabel
             // 
-            labelScore.AutoSize = true;
-            labelScore.Location = new Point(972, 763);
-            labelScore.Name = "labelScore";
-            labelScore.Size = new Size(163, 57);
-            labelScore.TabIndex = 2;
-            labelScore.Text = "Score 0";
+            scoreLabel.AutoSize = true;
+            scoreLabel.Location = new Point(972, 763);
+            scoreLabel.Name = "scoreLabel";
+            scoreLabel.Size = new Size(163, 57);
+            scoreLabel.TabIndex = 2;
+            scoreLabel.Text = "Score 0";
             // 
-            // lblCharacter
+            // characterLabel
             // 
-            lblCharacter.AutoSize = true;
-            lblCharacter.BackColor = SystemColors.InactiveCaption;
-            lblCharacter.Location = new Point(65, 74);
-            lblCharacter.MinimumSize = new Size(1000, 500);
-            lblCharacter.Name = "lblCharacter";
-            lblCharacter.Size = new Size(1000, 500);
-            lblCharacter.TabIndex = 3;
-            lblCharacter.TextAlign = ContentAlignment.MiddleCenter;
+            characterLabel.AutoSize = true;
+            characterLabel.BackColor = SystemColors.InactiveCaption;
+            characterLabel.Location = new Point(65, 74);
+            characterLabel.MinimumSize = new Size(1000, 500);
+            characterLabel.Name = "characterLabel";
+            characterLabel.Size = new Size(1000, 500);
+            characterLabel.TabIndex = 3;
+            characterLabel.Text = "characterLabel";
+            characterLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // gameTimer
             // 
@@ -87,22 +88,22 @@
             // 
             // gamePanel
             // 
-            gamePanel.Controls.Add(labelTest);
-            gamePanel.Controls.Add(lblCharacter);
+            gamePanel.Controls.Add(testLabel);
+            gamePanel.Controls.Add(characterLabel);
             gamePanel.Dock = DockStyle.Top;
             gamePanel.Location = new Point(0, 0);
             gamePanel.Name = "gamePanel";
             gamePanel.Size = new Size(1793, 693);
             gamePanel.TabIndex = 4;
             // 
-            // labelTest
+            // testLabel
             // 
-            labelTest.AutoSize = true;
-            labelTest.Location = new Point(1275, 243);
-            labelTest.Name = "labelTest";
-            labelTest.Size = new Size(237, 57);
-            labelTest.TabIndex = 4;
-            labelTest.Text = "TEST LABEL";
+            testLabel.AutoSize = true;
+            testLabel.Location = new Point(85, 122);
+            testLabel.Name = "testLabel";
+            testLabel.Size = new Size(237, 57);
+            testLabel.TabIndex = 4;
+            testLabel.Text = "TEST LABEL";
             // 
             // timerLabel
             // 
@@ -113,20 +114,20 @@
             timerLabel.TabIndex = 5;
             timerLabel.Text = "00:00";
             // 
-            // Main
+            // mainForm
             // 
             AutoScaleDimensions = new SizeF(23F, 57F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1793, 915);
             Controls.Add(timerLabel);
             Controls.Add(gamePanel);
-            Controls.Add(labelScore);
-            Controls.Add(btnClose);
-            Controls.Add(btnStart);
+            Controls.Add(scoreLabel);
+            Controls.Add(closeButton);
+            Controls.Add(startButton);
             Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             KeyPreview = true;
             Margin = new Padding(6);
-            Name = "Main";
+            Name = "mainForm";
             Text = "Main";
             KeyPress += Main_KeyPress;
             gamePanel.ResumeLayout(false);
@@ -137,13 +138,13 @@
 
         #endregion
 
-        private Button btnStart;
-        private Button btnClose;
-        private Label labelScore;
-        private Label lblCharacter;
+        private Button startButton;
+        private Button closeButton;
+        private Label scoreLabel;
+        private Label characterLabel;
         private System.Windows.Forms.Timer gameTimer;
         private Panel gamePanel;
         private Label timerLabel;
-        private Label labelTest;
+        private Label testLabel;
     }
 }

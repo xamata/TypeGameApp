@@ -43,7 +43,6 @@ C:\src\TypeGameApp\FormsTypeGame\bin\Debug\net7.0-windows\FormsTypeGame.pdb
 C:\src\TypeGameApp\FormsTypeGame\bin\Debug\net7.0-windows\TypingGameLibrary.dll
 C:\src\TypeGameApp\FormsTypeGame\bin\Debug\net7.0-windows\TypingGameLibrary.pdb
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.AssemblyReference.cache
-C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.Main.resources
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.csproj.GenerateResource.cache
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.GeneratedMSBuildEditorConfig.editorconfig
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.AssemblyInfoInputs.cache
@@ -55,3 +54,4 @@ C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\refint\FormsTypeGame.d
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.pdb
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.genruntimeconfig.cache
 C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\ref\FormsTypeGame.dll
+C:\src\TypeGameApp\FormsTypeGame\obj\Debug\net7.0-windows\FormsTypeGame.mainForm.resources
