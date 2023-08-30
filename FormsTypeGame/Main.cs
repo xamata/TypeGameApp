@@ -7,22 +7,23 @@ namespace FormsTypeGame
         int score = 0;
         int seconds = 30;
         int keyPressedCount = 0;
-        List<char> chars = new List<char>();
+        int wordIndex = 0;
+        string[] splitWords;
+        List<char> charactersPressed = new List<char>();
         string wordFilePath = "C:\\src\\TypeGameApp\\TypingGameLibrary\\Words.txt";
-        string parsedWords;
-        WordParsing wordParser;
+        WordParsing wordParser = new WordParsing();
         public mainForm()
         {
             InitializeComponent();
-            wordParser = new WordParsing();
-            parsedWords = wordParser.ParseWords(wordFilePath);
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            characterLabel.Text = wordParser.ParseWords(wordFilePath);
+            string parsedWords = wordParser.ParseWords(wordFilePath);
+            splitWords = parsedWords.Split('\n');
+            characterLabel.Text = splitWords[wordIndex];
 
-            //gameTimer.Interval = (10 * 1000); // 10 seconds
+            mainTextBox.Focus();
             gameTimer.Start();
         }
 
@@ -44,17 +45,19 @@ namespace FormsTypeGame
 
         private void Main_KeyPress(object sender, KeyPressEventArgs e)
         {
-            var enteredKey = e.KeyChar;
-
-            chars.Add(enteredKey);
-
-            testLabel.Text = new string(chars.ToArray());
-
-            if (enteredKey == testLabel.Text[keyPressedCount])
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                scoreLabel.Text = $"Score: {++score}";
+                scoreLabel.Text = "Entered";
+                wordIndex++;
+                characterLabel.Text = splitWords[wordIndex];
+                mainTextBox.Clear();
             }
-            keyPressedCount++;
+        }
+
+        private void mainTextBox_TextChanged(object sender, EventArgs e)
+        {
+            score++;
+            scoreLabel.Text = score.ToString();
         }
     }
 }

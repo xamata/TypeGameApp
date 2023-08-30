@@ -35,6 +35,7 @@
             characterLabel = new Label();
             gameTimer = new System.Windows.Forms.Timer(components);
             gamePanel = new Panel();
+            mainTextBox = new TextBox();
             testLabel = new Label();
             timerLabel = new Label();
             gamePanel.SuspendLayout();
@@ -88,6 +89,7 @@
             // 
             // gamePanel
             // 
+            gamePanel.Controls.Add(mainTextBox);
             gamePanel.Controls.Add(testLabel);
             gamePanel.Controls.Add(characterLabel);
             gamePanel.Dock = DockStyle.Top;
@@ -95,6 +97,14 @@
             gamePanel.Name = "gamePanel";
             gamePanel.Size = new Size(1793, 693);
             gamePanel.TabIndex = 4;
+            // 
+            // mainTextBox
+            // 
+            mainTextBox.Location = new Point(365, 122);
+            mainTextBox.Name = "mainTextBox";
+            mainTextBox.Size = new Size(552, 63);
+            mainTextBox.TabIndex = 5;
+            mainTextBox.TextChanged += mainTextBox_TextChanged;
             // 
             // testLabel
             // 
@@ -146,5 +156,6 @@
         private Panel gamePanel;
         private Label timerLabel;
         private Label testLabel;
+        private TextBox mainTextBox;
     }
 }
